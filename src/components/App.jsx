@@ -11,9 +11,9 @@ function App() {
 
   return (
     <>
-      {/* <Fruits /> */}
+      <Fruits />
 
-      <ConditionalComponent />
+      {/* <ConditionalComponent /> */}
     </>
   )
 }
