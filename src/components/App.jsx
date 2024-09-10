@@ -1,4 +1,5 @@
 import Fruits from './Fruits'
+import ConditionalComponent from './conditionalComponent'
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
 
   return (
     <>
-      <Fruits />
+      {/* <Fruits /> */}
+
+      <ConditionalComponent />
     </>
   )
 }
