@@ -1,3 +1,5 @@
+import Counter from './Counter'
+import Form from './Form'
 import Fruits from './Fruits'
 import ConditionalComponent from './conditionalComponent'
 
@@ -11,7 +13,9 @@ function App() {
 
   return (
     <>
-      <Fruits />
+      <Form />
+      {/* <Counter /> */}
+      {/* <Fruits /> */}
 
       {/* <ConditionalComponent /> */}
     </>
